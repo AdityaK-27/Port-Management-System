@@ -14,4 +14,21 @@ CREATE TABLE Ships (
 CREATE TABLE Arrival (
     ShipName VARCHAR(50),
     ShipNumber VARCHAR(20),
-    DateOfArrival
+    DateOfArrival DATE,
+    TimeOfArrival TIME,
+    CargoType VARCHAR(50),
+    ShipDimensions VARCHAR(50),
+    Berth VARCHAR(20),
+    PilotName VARCHAR(50)
+);
+
+CREATE TABLE Departure (
+    ShipName VARCHAR(50),
+    ShipNumber VARCHAR(20),
+    DateOfDeparture DATE,
+    TimeOfDeparture TIME,
+    CargoType VARCHAR(50),
+    ShipDimensions VARCHAR(50),
+    Berth VARCHAR(20),
+    PilotName VARCHAR(50)
+);
