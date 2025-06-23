@@ -1,6 +1,6 @@
 # 🚢 Port Management System
 
-A terminal-based **Port Management System** built using **Python** and **MySQL**. This project simulates operations at a port such as managing ship arrivals, departures, berth assignments, and maintaining a live ship register. Developed as part of a Class XII Informatics Practices project, it also demonstrates backend-database integration and record management using SQL.
+A terminal-based **Port Management System** built using **Python** and **MySQL**. This project simulates operations at a port such as managing ship arrivals, departures, berth assignments, and maintaining a live ship register. It demonstrates backend-database integration and record management using SQL.
 
 ---
 
